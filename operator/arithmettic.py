@@ -1,0 +1,5 @@
+n1=int(input('no1'))
+n2=int(input('no2'))
+print('result is',n1//n2)
+print(n1%n2)
+print(n1**n2)

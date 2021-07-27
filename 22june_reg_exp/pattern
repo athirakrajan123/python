@@ -1,0 +1,26 @@
+regular expression
+
+x='[abc]' either a b or c
+    [^abc] except abc  (^for not)
+    [a-z] ato z   not  uppercase
+    [A-Z]
+    [a-zA-z] both lower and upper case are checked
+    [0-9] check digits
+    [^a-zA-z0-9] special symbol
+    '\s' check space
+    '\d' check the digit
+    '\D' except digits
+    '\w' all words except special characters
+    '\W' for special characters
+
+
+quantifiers
+
+x='a+' a including group
+   a*  count including zero no.of a,if zero a also return,group   (a|)also same fun
+   a?  count a as each including zero no.of a,individual
+   a{2} 2 no.of a position
+   a{2,3} minimum 2a &maximum 3a
+   ^a    check start with a
+   a$    check ending with a
+   a.   check a and its next char
